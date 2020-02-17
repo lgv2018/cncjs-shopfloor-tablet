@@ -1,3 +1,11 @@
+.btn{
+ padding: 6px 3px;
+}
+
+body{
+/*added*/
+ overflow: hidden;
+}
 [data-route="close"] {
   padding: 10px;
 }
@@ -5,7 +13,8 @@
   padding: 10px;
 }
 [data-route="workspace"] {
-  padding: 5px;
+/*  padding: 5px;*/
+  padding: 2px;
   font-size: 14px;
 }
 [data-route="workspace"] .btn[disabled] {
@@ -26,7 +35,7 @@
     display: none;
 }
 [data-route="workspace"] > * {
-  margin-bottom: 5px;
+/*  margin-bottom: 5px;*/
 }
 [data-route="workspace"] > *:last-child {
   margin-bottom: 0;
@@ -42,13 +51,13 @@
 }
 [data-route="workspace"] .axis-position .container-fluid {
   background-color: azure;
-  padding-top: 12px;
-  padding-bottom: 12px;
+/*  padding-top: 12px;*/
+/*  padding-bottom: 12px;*/
 }
 [data-route="workspace"] .control-pad .container-fluid {
   background-color: lightyellow;
-  padding-top: 12px;
-  padding-bottom: 12px;
+/*  padding-top: 12px;*/
+/*  padding-bottom: 12px;*/
 }
 [data-route="workspace"] .nav-panel .btn {
   width: 100%;
