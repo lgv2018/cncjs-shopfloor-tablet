@@ -1,5 +1,9 @@
 # cncjs-shopfloor-tablet
 
+## fork
+# small changes for nice display on official RsPi LCD 800x480
+ !!! pre ALPHA STAGE !!!
+
 ### A stable cncjs UI for machine operators
 
 The normal cncjs UI is too complex for production use on a shop floor.  The many widgets, small buttons, complex screen repositioning, and developer-level information displays get in the way of a machine operator's needs for predictability and ease of access to the most important and frequently-used functions.
